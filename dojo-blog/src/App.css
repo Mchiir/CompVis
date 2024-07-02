@@ -1,0 +1,143 @@
+/* App.css */
+
+* {
+  outline: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 1cm;
+}
+
+.outer-container {
+  background-color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 10px solid transparent;
+}
+
+.container {
+  border: 20px solid rgba(80, 76, 76, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  width: 800px;
+}
+
+form {
+  display: flex;
+  width: 100%;
+}
+
+.general-info, .contact-info {
+  padding: 20px;
+  width: 50%;
+  padding: 1cm;
+}
+
+.general-info {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: white;
+}
+
+.general-info input {
+  background-color: white;
+  color: black;
+}
+
+.contact-info {
+  color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #4a4a4a;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px 0;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="number"]::placeholder {
+  color: #999;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus {
+  border-bottom: 2px solid #333;
+  outline: none;
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.terms input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.terms a {
+  color: #333;
+  text-decoration: none;
+}
+
+.terms a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.contact-info input[type="text"],
+.contact-info input[type="email"],
+.contact-info input[type="number"] {
+  background-color: #4a4a4a;
+  color: #fff;
+  border-bottom: 2px solid #666;
+}
+
+.contact-info input[type="text"]::placeholder,
+.contact-info input[type="email"]::placeholder,
+.contact-info input[type="number"]::placeholder {
+  color: #bbb;
+}
+
+.contact-info input[type="text"]:focus,
+.contact-info input[type="email"]:focus,
+.contact-info input[type="number"]:focus {
+  border-bottom: 2px solid #fff;
+}
+
+.submit_clear_btns{
+  position: relative;
+  bottom: 0;
+}

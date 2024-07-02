@@ -1,0 +1,32 @@
+# Ignore node_modules directories
+APIs/node_modules/
+dojo-blog/node_modules/
+
+# Ignore package-lock.json files
+APIs/package-lock.json
+dojo-blog/package-lock.json
+
+# Ignore .env file
+APIs/.env
+
+# Ignore specific dojo-blog files and directories
+dojo-blog/backup2/
+dojo-blog/public/
+dojo-blog/.gitignore
+dojo-blog/README.md
+
+# Ignore test.htm in the root
+test.htm
+
+# Ignore specific files in dojo-blog/src
+dojo-blog/src/App.test.js
+dojo-blog/src/index.css
+dojo-blog/src/index.js
+dojo-blog/src/logo.svg
+dojo-blog/src/README2.md
+dojo-blog/src/reportWebVitals.js
+dojo-blog/src/setupTests.js
+
+# Ignore the .gitignore file and README.md again in dojo-blog (redundant but specified)
+dojo-blog/.gitignore
+dojo-blog/README.md
